@@ -1,4 +1,4 @@
-#🚀 Kurdish Slug  
+# 🚀 Kurdish Slug  
 
 A simple and powerful Laravel package for generating **SEO-friendly Kurdish slugs** from Sorani and Kurmanji text.
 
