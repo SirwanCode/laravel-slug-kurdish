@@ -1,4 +1,4 @@
-# Kurdish Slug for Laravel
+#🚀 Kurdish Slug  
 
 A simple and powerful Laravel package for generating **SEO-friendly Kurdish slugs** from Sorani and Kurmanji text.
 
@@ -45,6 +45,16 @@ $slugSorani =  KuSlug::sorani( '  سڵاو! كــوردستان   ');
 $slugKurmanji =  KuSlug::kurmanji( '   Silav, Kurdistan!   ');
  
 ```
+   
+if you need unique slug: 
+
+```php
+use sirwancode\laravelslugkurdish\KuSlug;
+
+$slugSorani =  KuSlug::sorani( '  سڵاو! كــوردستان   ',true);  
+$slugKurmanji =  KuSlug::kurmanji( '   Silav, Kurdistan!   ',true);
+ 
+```
 
 ## 🛠️ Configuration
 
@@ -56,7 +66,7 @@ php artisan  vendor:publish --provider='sirwancode\laravelslugkurdish\KuSlugServ
 
 ```
 
-The configuration can be customized according to your application's requirements.
+a KuSlug.php is added to config folder of your application ,the configuration can be customized according to your application's requirements.
 
 ## 📁 Package Structure
 
