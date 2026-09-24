@@ -1,0 +1,27 @@
+{
+    "name": "sirwancode/laravel-slug-kurdish",
+    "description": "Kurdish ( sorani & kurmanji ) slug package for laravel framework",
+    "type": "library",
+    "authors": [
+        {
+            "name": "sirwancode",
+            "email": "sirwancode@gmail.com"
+        }
+    ],
+    
+    "autoload": {
+        "psr-4": {
+          "sirwancode\\laravelslugkurdish\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "sirwancode\\laravelslugkurdish\\KuSlugServiceProvider"
+            ]
+            
+        }
+    },
+    "require": {   
+    }
+}
