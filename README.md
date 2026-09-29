@@ -218,6 +218,26 @@ Pelê KuSlug.php li peldanka config ya sepana te tê zêdekirin, û dikarî veav
  
 
 
+<div dir="rtl" align="right">
+
+## 📁 پێکهاتەی پاکێج     Avahiya pakêtê 
+
+ </div>
+
+
+
+
+```text
+laravel-slug-kurdish/
+├── src/
+│   ├── KuSlug.php
+│   ├── KuSlugServiceProvider.php
+│   ├── config.php 
+├── composer.json
+└── README.md
+```
+    
+
 
 
 
