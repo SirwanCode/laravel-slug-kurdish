@@ -115,17 +115,19 @@ Ev paket bi tîpên taybet ên Kurdî, normalîzekirina Unicode û varyantên t�
 ## 📦 دامەزراندن Sazkirin
 
 
-پاکێجەکە بە Composer دابمەزرێنە:
-    
-Pakêtê bi Composer saz bike &nbsp;&nbsp;
+پاکێجەکە بە Composer دابمەزرێنە:    Pakêtê bi Composer saz bike &nbsp;&nbsp;
 
 </div>
 
 
+    
 
 ```bash
 composer require sirwancode/laravel-slug-kurdish
 ```
+
+
+    
 
 
 <div dir="rtl" align="right">
@@ -137,8 +139,7 @@ composer require sirwancode/laravel-slug-kurdish
 
    
  <div dir="rtl" align="right">
-### تۆمارکردنی دەستی Service Provider
- 
+### تۆمارکردنی دەستی Service Provider 
 
 
   ئەگەر Package Discovery ناچالاک کراوە، یان وەشانی/ڕێکخستنی Laravel ـەکەت پشتگیری لە دۆزینەوەی خۆکار ناکات، Service Provider ـەکە بە دەستی تۆمار بکە.
