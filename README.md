@@ -94,8 +94,133 @@ Your support helps improve Kurdish open-source software.
 
 ---
 
-### Kurdish Laravel Tools
+# 🚀 سلاگ کوردی  Slugê Kurdî
 
-Built with ❤️ for **Kurdish developers and Laravel applications**.
+پاکێجێکی سادە و بەهێزی Laravel بۆ دروستکردنی **slug ـی کوردی گونجاو بۆ SEO** لە دەقی سۆرانی و کورمانجی.
+ئەم پاکێجە پیتە تایبەتەکانی کوردی، ئاسایی‌کردنەوەی Unicode، جۆرە جیاوازەکانی پیتە فارسی و عەرەبییەکان مامەڵە لەگەڵ دەکات و **slug ـی پاک و گونجاو بۆ URL** بۆ ئەپلیکەیشنەکانی Laravel دروست دەکات.
 
-**Sorani • Kurmanji • Laravel • PHP • Open Source**
+
+Pakêteke hêsan û bihêz a Laravelê ji bo çêkirina **slugên Kurdî yên guncaw ji bo SEO** ji nivîsên Soranî û Kurmancî.
+
+
+
+Ev paket bi tîpên taybet ên Kurdî, normalîzekirina Unicode û varyantên tîpên Farisî û Erebî re dixebite û **slugên paqij û guncaw ji bo URLê** ji bo sepanên Laravelê çêdike.
+
+
+ 
+
+ 
+<div dir="rtl" align="right">
+
+## 📦 دامەزراندن Sazkirin
+
+
+پاکێجەکە بە Composer دابمەزرێنە:
+    
+Pakêtê bi Composer saz bike &nbsp;&nbsp;
+
+</div>
+
+
+
+```bash
+composer require sirwancode/laravel-slug-kurdish
+```
+
+
+<div dir="rtl" align="right">
+
+پاکێجەکە بە شێوەی خۆکار لەلایەن Laravel ـەوە دەناسرێتەوە.
+    Pakêt bixweber ji aliyê Laravel ve tê nasîn.
+
+</div>
+
+   
+ <div dir="rtl" align="right">
+### تۆمارکردنی دەستی Service Provider
+ 
+
+
+  ئەگەر Package Discovery ناچالاک کراوە، یان وەشانی/ڕێکخستنی Laravel ـەکەت پشتگیری لە دۆزینەوەی خۆکار ناکات، Service Provider ـەکە بە دەستی تۆمار بکە.
+
+Ger Package Discovery neçalak be, an jî guhertoya/veavakirina Laravelê te piştgiriyê ji bo dîtina bixweber neke, Service Provider bi destan tomar bike
+
+
+
+
+</div>    
+
+
+```php
+SirwanCode\LaravelSlugKurdish\KuSlugServiceProvider::class,
+```
+
+
+<div dir="rtl" align="right">
+
+## 🚀 بەکارهێنان              Bikaranîn   
+
+دەتوانیت   سلاگ کوردی بە سۆرانی و کورمانجی دروست بکەیت:       Dikarî slugê Kurdî bi Soranî û Kurmancî çêkî
+
+</div>
+
+
+
+```php
+use sirwancode\laravelslugkurdish\KuSlug;
+
+$slugSorani =  KuSlug::sorani( '  سڵاو! كــوردستان   ');  
+$slugKurmanji =  KuSlug::kurmanji( '   Silav, Kurdistan!   ');
+ 
+```
+   
+ 
+ئەگەر پێویستت بە سلاگـێکی یەکتا هەیە:      Heke pêdiviya te bi slugê yekta heye 
+
+     
+       
+
+```php
+use sirwancode\laravelslugkurdish\KuSlug;
+
+$slugSorani =  KuSlug::sorani( '  سڵاو! كــوردستان   ',true);  
+$slugKurmanji =  KuSlug::kurmanji( '   Silav, Kurdistan!   ',true);
+ 
+```
+
+
+     
+      
+<div dir="rtl" align="right">
+
+## 🛠️ ڕێکخستن       Veavakirin
+
+ فایلی ڕێکخستن بە فەرمانی خوارەوە publish بکە:
+Pelê veavakirinê bi fermana jêrîn publish bike
+
+</div>
+   
+
+```bash
+
+php artisan  vendor:publish --provider='sirwancode\laravelslugkurdish\KuSlugServiceProvider'    --force
+
+```
+   
+
+
+فایلی KuSlug.php بۆ فۆڵدەری config ـی ئەپلیکەیشنەکەت زیاد دەکرێت، و دەتوانیت ڕێکخستنەکانی بەپێی پێداویستییەکانی ئەپلیکەیشنەکەت دەستکاری بکەیت.
+
+
+Pelê KuSlug.php li peldanka config ya sepana te tê zêdekirin, û dikarî veavakirinên wê li gorî pêdiviyên sepana xwe biguherînî.
+
+ 
+
+
+
+
+
+
+
+
+ 
