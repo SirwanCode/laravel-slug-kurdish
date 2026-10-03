@@ -62,7 +62,7 @@ publish configuration file using following command:
 
 ```bash
 
-php artisan  vendor:publish --provider='sirwancode\laravelslugkurdish\KuSlugServiceProvider'    --force
+php artisan  vendor:publish --provider='sirwancode\laravelslugkurdish\KuSlugServiceProvider'    
 
 ```
 
@@ -204,7 +204,7 @@ Pelê veavakirinê bi fermana jêrîn publish bike
 
 ```bash
 
-php artisan  vendor:publish --provider='sirwancode\laravelslugkurdish\KuSlugServiceProvider'    --force
+php artisan  vendor:publish --provider='sirwancode\laravelslugkurdish\KuSlugServiceProvider'   
 
 ```
    
